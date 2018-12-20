@@ -1,0 +1,82 @@
+header{
+	height: 80px;
+    width: 100%;
+	font-size: 16px;
+	position: fixed;
+	z-index: 1;
+}
+nav{
+    position: fixed;
+    color: white;    
+    font-size: large;
+}
+.footer-copyright {
+    background-color: #343a40;
+    color: #6a6dcd;
+}
+#carouselExampleControls{
+     width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body{
+    background-color: black;  
+    color:black;
+}
+
+header .logo-icon {
+	float: right;
+	background: url(../images/logo.png) center/cover;
+	width: 44px;
+	height: 40px;
+	position: relative;
+    right: 5px;
+    animation-name: slide_rotate;
+    animation-duration: 2s;
+}
+
+
+/* ******ANIMATION IN NAVBAR******   */
+header .title-logo {
+	float: right;
+	height: 50px;
+	padding: 15px;
+	background: transparent;
+	box-sizing: border-box;
+}
+
+header .title-logo * {
+	background: transparent;
+	animation-name: revealing;
+	animation-duration: 3s;
+}
+
+@keyframes slide_rotate {
+	from {
+		transform: rotate(0deg);
+		opacity: 0.0;     
+		margin-left: -100px;
+	}
+	to {
+		transform: rotate(360deg);
+		opacity: 1;     
+		margin-right: 0px;
+	}
+}
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media screen and(max-w)
+.g-item {
+	background:url(../images/backs.jpg)
+	height: 200px;
+	margin: 10px 0;
+}
+
+
