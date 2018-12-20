@@ -1,0 +1,69 @@
+
+header .content {
+	max-width: 960px;
+}
+
+.content {
+	max-width: 960px;
+}
+
+
+/* * * * * * * * * * * * *
+		SECTION 1
+* * * * * * * * * * * * */
+
+.first .content {
+	background: #181818;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.first h1 {
+	text-align: center;
+}
+
+.news {
+
+	display: flex;
+}
+
+.news-block {    
+ 	width: 240px;  
+ 	height: 350px;     
+ 	background: #0d0d0d;
+	padding: 20px;     
+	border-radius: 10px;     	
+	box-sizing: border-box;     
+	color:#eee;     
+	cursor: pointer;
+}
+
+.news-flex-block {
+	flex: 1;
+}
+
+.news-img {
+	padding-right:500px;
+	max-width: 100%;
+	max-height: 50%;
+	float: center;
+}
+
+.news-block h3 {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.news-block p {
+	margin: 0;
+	font-size: 14px;
+	margin-top: 12px;
+}
+h1{
+	margin: 0 auto;
+	font-size: xx-large;
+	word-spacing: 0.1em;
+	background: black;
+	color:white;
+	text-align: center;
+}
