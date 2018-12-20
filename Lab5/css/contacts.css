@@ -1,0 +1,52 @@
+.first {
+    margin: 40px;
+    padding-top: 80px;
+}
+
+.first .content {
+	background: #181818;
+}
+.first .container{
+    padding-top: 15px;    
+    padding-bottom: 15px;
+    background: #181818;
+}
+.map-picture {
+	width: 100%;
+}
+.contacts {
+	padding: 10px;
+}
+.contacts-content {
+	background: #232323;
+	    padding: 20px;
+    margin-top: 80px;
+}
+.contacts h1 {
+	text-align: center;
+	border-bottom: 2px white solid;
+	padding-bottom: 5px;
+}
+.contacts ul {
+	margin-top: 20px;
+}
+.contacts li {
+	height: 20px;
+	text-align: left;
+    color: white;
+}
+body{
+    display: flex;
+    
+    flex-direction: column;
+}
+footer .content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.contacts-content {
+    background: #8d90ff;
+    padding: 20px;
+    margin-top: 80px;
+}

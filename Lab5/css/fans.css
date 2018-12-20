@@ -1,0 +1,63 @@
+content .content {
+	padding: 20px;
+}
+
+content h1 {
+	text-align: center;
+}
+p{
+    color:white;
+}
+h1{
+    color: white;
+}
+div{
+    color:white;
+}
+content .request {
+	min-height: 200px;
+	background: rgba(0, 0, 0, .4);
+	margin: 30px 0;
+	padding: 20px;
+	position: relative;
+}
+
+.request .req-footer {
+	margin-top: 25px;
+}
+
+.request .date {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+
+.request .nickname {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+.adding-request textarea {
+	width: 80%;
+}
+
+.adding-request .btn {
+	vertical-align: top;
+	width: 19%;
+}
+
+.adding-request button {
+	width: 120px;
+}
+textarea{
+    opacity:0.9;
+}
+button, select {
+	text-transform: none;
+    width: 125px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    
+}

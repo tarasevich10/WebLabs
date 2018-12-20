@@ -1,0 +1,60 @@
+body{
+    
+    color:white;
+}
+.first .content{
+
+}
+.first h1{
+    margin-top: 100px;
+}
+
+section .content {
+	background: #181818;
+	padding: 20px; 
+	box-sizing: border-box;
+}
+
+
+section h1 {
+	text-align: center;
+}
+
+/* * * * * * * * * * * * *
+		SECTION 1
+* * * * * * * * * * * * */
+
+.match-table {
+	overflow-x:auto;
+}
+
+.first table {
+	margin: 20px auto;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.first tr {
+	height: 50px;
+}
+
+.first th, td {
+	width: 220px;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.first th {
+	background: #222;
+}
+
+.first tr {
+	background: #555;
+}
+
+.first tr:nth-child(odd) {
+	background: #383838;
+}
+
+/* * * * * * * * * * * * *

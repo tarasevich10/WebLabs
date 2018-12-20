@@ -1,0 +1,81 @@
+body{
+    margin-top: -70px;
+}
+h1 {
+	text-align: center;
+}
+
+section {
+	margin-top: 40px;
+}
+
+
+section .content {
+	background-color: white;
+    opacity: 0.9;
+	padding: 20px;
+}
+
+
+/* * * * * * * * * * * * *
+		SECTION 1
+* * * * * * * * * * * * */
+
+.first h1 {
+	margin: 0px;
+}
+
+.adding-image {
+	margin-left: 5px;
+}
+
+.adding-image img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.adding-image .add-image-btn {
+	margin-top: 10px;
+}
+
+.second textarea {
+	width: 100%;
+}
+
+.second textarea#title {
+	min-height: 50px;
+}
+section .content {
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    margin-bottom: 71px;
+}
+.btn {
+    float: right;
+}
+.input-form {
+    display: flex;
+}
+#newsForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ome{
+    margin-top: 70px;
+}
+nav{
+    margin-bottom: 50px;
+}
+footer{
+    padding-top: 30px;
+}
+.content{
+    padding-top: 80px!important;
+}
+.error-textarea{
+    border-color: #ff2222;
+}
+.error-textarea::placeholder {
+    color: #ff2222;
+}
